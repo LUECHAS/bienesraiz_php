@@ -6,6 +6,11 @@
     $auth = $_SESSION['login'] ?? false;
 ?>
 
+<?php
+$inicio = true; 
+
+echo $inicio ? "<h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>" : '';?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
